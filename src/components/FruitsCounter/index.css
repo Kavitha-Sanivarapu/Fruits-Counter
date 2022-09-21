@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.heading {
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.span-element {
+  color: #ffd569;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #007bff;
+  padding: 8px;
+  border-radius: 4px;
+  border-width: 0px;
+  font-size: 10px;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+}
